@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <script>
+    /*x and why are parameters and 5 and 8 are argument  to call a function requires me to write a function name bracket and argument inside so then clause it with semicolon*/
+    function myFunction (x, y){
+       return x+ y;
+    }
+  let result = myFunction(7,8)
+  console.log(result);
+  /* object has name property and value so it is a common practice to declare object with const and to access object you use name.propety */
+
+ const computer = {model: 12, type: 'mac', cost:700};
+ console.log(computer.cost, computer.type);
+
+ const person = {
+  name: "John", Age: 50
+ };
+ alert(person.name + " is "+ person.Age);
+
+ /*string.lenght is used to access the length of that string */
+ const myName = 'Levis'
+ console.log(myName.length);
+
+ let x = 'levis bayubahe';
+ console.log(x.toUpperCase());
+
+ /* how to convert a string into an array using string.split ('' or "") iyo ushyizemo hagati space ntago igakatagura mo buri letter*/
+console.log(x.split(" "));
+
+if (5 !=='levis') {
+  alert('Yes');
+} else if (5 === 9) {
+  alert('No!');
+} else {
+  alert('nothing to be found')
+}
+ 
+const colorCode = ["red","blue", "green"]
+
+let fullCode = "";
+
+for ( let i = 0 ; i < colorCode.length; i++ ) {
+  fullCode += colorCode[i] + '';
+}
+console.log(fullCode);
+  </script>
+</body>
+</html>
